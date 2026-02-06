@@ -17,18 +17,18 @@ function HeroSection() {
           <p>Available on</p>
           <div className="brand-icon">
             <img
-              src="/images/amazon.png"
+              src="/nike-shoes-2/images/amazon.png"
               alt="Amazon Logo"
             />
             <img 
-              src="/images/flipkart.png"
+              src="/nike-shoes-2/images/flipkart.png"
               alt="Flipkart Logo"
             />
           </div>
         </div>
       </div>
       <div className="hero-image">
-        <img src="/images/hero-image.png" alt="Nike Shoes Hero Image" />
+        <img src="/nike-shoes-2/images/hero-image.png" alt="Nike Shoes Hero Image" />
       </div>
     </main>
   );

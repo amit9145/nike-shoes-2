@@ -6,7 +6,7 @@ function App() {
     <div>
       <nav>
         <div>
-          <img src="/images/brand_logo.png" alt="Nike Brand Logo" />
+          <img src="/nike-shoes-2/images/brand_logo.png" alt="Nike Brand Logo" />
         </div>
         <ul>
           <li><a href="#" aria-label="Menu">Menu</a></li> 
