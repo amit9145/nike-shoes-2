@@ -17,7 +17,6 @@ nav{
     max-width: 1280px;
     margin: 0 auto;
     padding: 20px;
-    height: 72px;
     
 }
 
@@ -27,14 +26,39 @@ nav ul{
     gap: 24px;
     align-items: center;
 }
+
+nav ul a {
+    text-decoration: none;
+    color: var(--grey);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul a:hover {
+    color: var(--red);
+}
 button {
-    all: unset;
     padding: 6px 16px;
     height: 32px;
     background-color: var(--red);
-    height: 32px;
     color: white;
     font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button:hover {
+    background-color: #b01820;
+    transform: translateY(-1px);
+}
+
+button:focus {
+    outline: 2px solid var(--red);
+    outline-offset: 2px;
 }
 .hero {
     display: flex;
@@ -66,7 +90,7 @@ button {
     border: 1px solid gray;
 }
 .online-shopping p{
-    size: 14px;
+    font-size: 14px;
     margin-bottom: 8px;
 }
 .brand-icon{
